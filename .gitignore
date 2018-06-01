@@ -13,9 +13,9 @@ opencv/
 convnet/
 decaf/
 submission/
-cfg/
 darknet
 .fuse*
+models/
 
 # OS Generated #
 .DS_Store*
@@ -27,3 +27,7 @@ Thumbs.db
 # CMake #
 cmake-build-debug/
 CMakeLists.txt
+
+cfg/voc.data
+
+
