@@ -16,6 +16,7 @@ submission/
 darknet
 .fuse*
 models/
+log/*.log
 
 # OS Generated #
 .DS_Store*
