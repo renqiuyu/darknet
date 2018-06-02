@@ -1,0 +1,11 @@
+brain-v0 : default yolov3 without random scale
+brain-v1 : default yolov3 with relu activation function, random scale and recompute anchorbox by using our train data.
+brain-v2 : brain-v0 + recompute anchor box
+brain-v3 : brain-v2 + amplify IOU loss
+
+brain-tiny-v0 : default yolov3-tiny
+brain-tiny-v1 : brain-tiny-v0 with anchor box
+brain-tiny-v2 : brain-tiny-v1 + amplify IOU loss
+
+
+
