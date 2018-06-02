@@ -175,7 +175,7 @@ void forward_detection_layer(const detection_layer l, network_state state)
                     l.delta[box_index+3] = l.coord_scale*(sqrt(state.truth[tbox_index + 3]) - l.output[box_index + 3]);
                 }
 
-                *(l.cost) += pow(1-iou, 2);
+                *(l.cost) += 1.5*pow(1-iou, 2);
                 avg_iou += iou;
                 ++count;
             }

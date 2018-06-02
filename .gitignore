@@ -17,6 +17,8 @@ darknet
 .fuse*
 models/
 log/*.log
+backup/
+*.jpg
 
 # OS Generated #
 .DS_Store*
